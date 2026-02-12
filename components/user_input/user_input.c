@@ -7,12 +7,13 @@
 #define LOOP_TIME_MS 50     // Loop delay in msec
 
 
+// These three variables are the interface to app_main().
 char ret_string[MAX_LENGTH];
-char prompt[MAX_LENGTH] = "min and max duty (usec): ";
-
-
-bool string_ready = false;
 bool task_over = false;
+bool string_ready = false;
+
+
+char prompt[MAX_LENGTH] = "min and max duty (usec): ";
 
 
 void user_input()

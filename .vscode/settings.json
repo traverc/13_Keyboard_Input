@@ -4,7 +4,7 @@
     "board/esp32s3-builtin.cfg"
   ],
   "idf.portWin": "COM3",
-  "idf.currentSetup": "C:\\Users\\traverc\\esp\\v5.5.2\\esp-idf",
+  "idf.currentSetup": "C:\\esp\\v5.5.2\\esp-idf",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32s3"
   },
@@ -13,5 +13,6 @@
     "--background-index",
     "--query-driver=**",
     "--compile-commands-dir=c:\\Users\\traverc\\218_Exercises_2026\\13_Keyboard_Input\\build"
-  ]
+  ],
+  "idf.flashType": "UART"
 }
